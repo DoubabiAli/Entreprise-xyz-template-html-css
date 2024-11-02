@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprise XYZ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="logo.png">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">XYZ</div>
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#services">Services</a>
+            <a href="#a-propos">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-content">
+            <h1>Bienvenue chez Entreprise XYZ</h1>
+            <p>Nous offrons des services de pointe pour répondre à vos besoins.</p>
+            <a href="#services" class="cta-button">Découvrir nos services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Nos Services</h2>
+        <div class="service-card">
+            <img src="consulting.png" alt="Consultation stratégique">
+            <h3>Consultation Stratégique</h3>
+            <p>Des conseils personnalisés pour faire croître votre entreprise.</p>
+        </div>
+        <div class="service-card">
+            <img src="web-development.png" alt="Développement web">
+            <h3>Développement Web</h3>
+            <p>Création de sites modernes et adaptés à tous les appareils.</p>
+        </div>
+        <div class="service-card">
+            <img src="digital-marketing.png" alt="Marketing digital">
+            <h3>Marketing Digital</h3>
+            <p>Stratégies pour maximiser votre présence en ligne.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="a-propos">
+        <h2>À Propos de Nous</h2>
+        <p>Chez XYZ, nous sommes passionnés par l'innovation et la réussite de nos clients.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contactez-Nous</h2>
+        <form action="#" method="post">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Votre message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Entreprise XYZ. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
