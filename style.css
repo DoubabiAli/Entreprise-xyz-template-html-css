@@ -1,185 +1,248 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 /* Navbar */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #333;
-    color: #fff;
-    border-bottom: 1px solid black;
-    position: fixed;
-    top: 0;
-    width: 100%
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 header .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 header nav a {
-    color: #fff;
-    margin-left: 1rem;
-    text-decoration: none;
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
 }
 
 header nav a:hover {
-    color: #ff6b6b;
+  color: #ff6b6b;
 }
 
 /* Hero */
 .hero {
-    background: url('background.svg') no-repeat center center/cover;
-    color: #fff;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2rem;
-    background-color: #333;
+  background: url("background.svg") no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: #333;
 }
 
 .hero-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .cta-button {
-    padding: 0.8rem 1.5rem;
-    background-color: #ff6b6b;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .cta-button:hover {
-    background-color: #ff5252;
+  background-color: #ff5252;
 }
 
 /* Services */
 .services {
-    padding: 3rem 2rem;
-    text-align: center;
-    background-color: #f9f9f9;
-    background: url('background2.svg') no-repeat center center/cover;
-    height: auto;
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  background: url("background2.svg") no-repeat center center/cover;
+  height: auto;
 }
 
 .services h2 {
-    font-size: 2rem;
-    margin-bottom: 5rem;
+  font-size: 2rem;
+  margin-bottom: 5rem;
 }
 
 .service-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin: 1rem;
-    text-align: center;
-    width: 80%;
-    max-width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.service-card:hover{
-    transform: scale(1.1);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.service-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .service-card img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
 
 .service-card h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .service-card p {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 /* About */
 .about {
-    padding: 3rem 2rem;
-    background-color: #fff;
-    text-align: center;
+  padding: 3rem 2rem;
+  background-color: #fff;
+  text-align: center;
 }
 
 .about h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* Contact */
 .contact {
-    padding: 3rem 2rem;
-    background-color: #f9f9f9;
-    text-align: center;
-    background-color: #555;
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  background-color: #555;
 }
 
 .contact h2 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .contact form {
-    max-width: 400px;
-    margin: 0 auto;
-    text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .contact label {
-    display: block;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.contact input, .contact textarea, .contact button {
-    width: 100%;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+.contact input,
+.contact textarea,
+.contact button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .contact button {
-    background-color: #ff6b6b;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 .contact button:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
 /* Footer */
 footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Phones screens*/
+.menu-icon {
+  display: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menu-icon:hover {
+  color: #ff6b6b;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 61px;
+    right: 0px;
+    background-color: #444;
+    padding: 0px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .nav-links a {
+    padding: 15px 40px;
+    margin: 0%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .nav-links a:hover {
     background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
+    width: 100%;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.466);
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .nav-links.show {
+    display: flex;
+    animation: slideDown 0.5s ease forwards;
+  }
 }
